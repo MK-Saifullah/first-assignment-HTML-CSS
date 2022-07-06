@@ -34,10 +34,12 @@ body{
     background:#FF5959;
     color: white;
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
     cursor: pointer;
 }
-.second-section{
+.donation-section{
     text-align: center;
     padding-top: 50px;
 }
@@ -56,4 +58,40 @@ body{
     border: 1px solid #FF5959;
     background: #b30d0d;
     color: #f5f5f5
+}
+.planning-area{
+    padding: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 20%;
+    text-align: left;
+}
+.contribution-section{
+    display: flex;
+    padding: 80px 0;
+}
+.contribution-area{
+    width: 50%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.contribution-area img {
+    width: 100%
+}
+.subscription-area{
+    padding: 40px 80px;
+    background: #FFF4D6;
+    width: 30%;
+    margin: 0 auto;
+}
+.input-area{
+    background: lightgray;
+    padding: 7px;
+}
+.footer-area{
+    padding: 20px;
+    background: #000;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
 }
